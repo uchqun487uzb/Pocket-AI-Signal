@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UCHQUN AI PRO</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+<div class="top">
+
+<div class="profile">
+<img src="/static/profile.jpg">
+
+<div>
+<h1>UCHQUN AI PRO</h1>
+<p>Professional AI Trading</p>
+</div>
+
+</div>
+
+<div class="vip">
+💎 VIP
+</div>
+
+</div>
+
+
+<div class="menu">
+
+<button class="active">📈 FOREX</button>
+<button>📊 OTC</button>
+
+</div>
+
+
+<label>💱 Valyuta juftligi</label>
+
+<input id="pair" value="AUDCAD=X">
+
+
+<label>⏰ Taymfreym</label>
+
+<select id="timeframe">
+<option value="1m">1 daqiqa</option>
+<option value="5m">5 daqiqa</option>
+<option value="15m">15 daqiqa</option>
+<option value="30m">30 daqiqa</option>
+<option value="60m">1 soat</option>
+</select>
+
+
+<button id="signalButton" class="signal">
+
+🚀 AI SIGNAL
+
+</button>
+
+
+<div class="card">
+
+<div id="signalType">---</div>
+
+<div id="pairName">AUDCAD=X</div>
+
+<div class="percent">0%</div>
+
+</div>
+
+
+<script src="/static/script.js?v=2"></script>
+
+</body>
+</html>

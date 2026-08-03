@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UCHQUN AI PRO</title>
+
+<link rel="stylesheet" href="/static/style.css?v=5">
+
+</head>
+<body>
+
+<div class="background"></div>
+
+<div class="container">
+
+<header>
+
+<div class="profile">
+
+<img src="/static/profile.jpg" class="avatar">
+
+<div>
+
+<h1>UCHQUN AI PRO</h1>
+
+<p>Professional AI Trading</p>
+
+</div>
+
+</div>
+
+<div class="vip">
+
+💎 VIP
+
+</div>
+
+</header>
+
+
+<div class="tabs">
+
+<button id="forexBtn" class="active">
+
+📈 FOREX
+
+</button>
+
+<button id="otcBtn">
+
+📊 OTC
+
+</button>
+
+</div>
+
+
+<div class="card">
+
+<label>
+
+💱 Valyuta juftligi
+
+</label>
+
+<select id="pair">
+
+<!-- FOREX -->
+
+<option value="EURUSD=X">EUR/USD</option>
+<option value="GBPUSD=X">GBP/USD</option>
+<option value="USDJPY=X">USD/JPY</option>
+<option value="USDCHF=X">USD/CHF</option>
+<option value="USDCAD=X">USD/CAD</option>
+<option value="AUDUSD=X">AUD/USD</option>
+<option value="AUDCAD=X">AUD/CAD</option>
+<option value="AUDJPY=X">AUD/JPY</option>
+<option value="AUDCHF=X">AUD/CHF</option>
+<option value="NZDUSD=X">NZD/USD</option>
+<option value="NZDCAD=X">NZD/CAD</option>
+<option value="NZDJPY=X">NZD/JPY</option>
+<option value="EURJPY=X">EUR/JPY</option>
+<option value="EURGBP=X">EUR/GBP</option>
+<option value="EURAUD=X">EUR/AUD</option>
+<option value="EURCAD=X">EUR/CAD</option>
+<option value="EURCHF=X">EUR/CHF</option>
+<option value="GBPJPY=X">GBP/JPY</option>
+<option value="GBPAUD=X">GBP/AUD</option>
+<option value="GBPCAD=X">GBP/CAD</option>
+<option value="GBPCHF=X">GBP/CHF</option>
+
+<!-- OTC -->
+
+<option>──────── OTC ────────</option>
+
+<option>EUR/USD OTC</option>
+<option>GBP/USD OTC</option>
+<option>USD/JPY OTC</option>
+<option>USD/CHF OTC</option>
+<option>USD/CAD OTC</option>
+<option>AUD/USD OTC</option>
+<option>AUD/CAD OTC</option>
+<option>AUD/JPY OTC</option>
+<option>NZD/USD OTC</option>
+<option>NZD/JPY OTC</option>
+<option>EUR/JPY OTC</option>
+<option>EUR/GBP OTC</option>
+<option>EUR/CAD OTC</option>
+<option>EUR/AUD OTC</option>
+<option>EUR/CHF OTC</option>
+<option>GBP/JPY OTC</option>
+<option>GBP/CAD OTC</option>
+<option>GBP/AUD OTC</option>
+<option>GBP/CHF OTC</option>
+
+</select>
+
+<label>
+
+⏰ Taymfreym
+
+</label>
+
+<div class="timeframe">
+
+<button class="time active">1m</button>
+<button class="time">5m</button>
+<button class="time">15m</button>
+<button class="time">30m</button>
+<button class="time">1H</button>
+
+</div>
+
+<button id="signalButton" class="signal">
+
+🚀 AI SIGNAL
+
+</button>
+
+</div>
+
+<div class="signal-card">
+
+<div class="live">
+
+🟢 LIVE
+
+</div>
+
+<h2 id="signalType">
+
+BUY
+
+</h2>
+
+<h3 id="pairName">
+
+EUR/USD
+
+</h3>
+
+<div class="percent">
+
+98%
+
+</div>
+
+<div class="power">
+
+<div class="power-fill"></div>
+
+</div>
+<div class="analysis">
+
+<div class="item">
+<span>EMA 8/21</span>
+<span class="ok">✔</span>
+</div>
+
+<div class="item">
+<span>RSI</span>
+<span class="ok">✔</span>
+</div>
+
+<div class="item">
+<span>MACD</span>
+<span class="ok">✔</span>
+</div>
+
+<div class="item">
+<span>Fractal</span>
+<span class="ok">✔</span>
+</div>
+
+<div class="item">
+<span>Trend</span>
+<span class="ok">✔</span>
+</div>
+
+</div>
+
+<div class="history">
+
+<h2>📜 Signal History</h2>
+
+<div id="historyList">
+
+<p>Hozircha signal yo'q.</p>
+
+</div>
+
+</div>
+
+<footer>
+
+<button class="nav active">
+
+🏠<br>
+
+Home
+
+</button>
+
+<button class="nav">
+
+📊<br>
+
+History
+
+</button>
+
+<button class="nav">
+
+💎<br>
+
+VIP
+
+</button>
+
+<button class="nav">
+
+👤<br>
+
+Profil
+
+</button>
+
+</footer>
+
+</div>
+
+<script src="/static/script.js?v=5"></script>
+
+</body>
+</html>
+
