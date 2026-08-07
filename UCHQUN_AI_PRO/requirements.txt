@@ -1,9 +1,0 @@
-python-telegram-bot==22.2
-pandas
-numpy
-ta
-yfinance
-apscheduler
-sqlalchemy
-python-dotenv
-
